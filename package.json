@@ -10,7 +10,8 @@
     "start": "lithia start",
     "build": "lithia build",
     "format": "prettier --write .",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "postinstall": "prisma generate"
   },
   "engines": {
     "node": ">=20"
@@ -26,6 +27,8 @@
     "typescript-eslint": "^8.17.0"
   },
   "dependencies": {
+    "@prisma/client": "^6.3.0",
+    "dotenv": "^16.4.7",
     "lithia": "^2.0.7"
   }
 }
