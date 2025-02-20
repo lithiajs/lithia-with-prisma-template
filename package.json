@@ -29,6 +29,6 @@
   "dependencies": {
     "@prisma/client": "^6.3.0",
     "dotenv": "^16.4.7",
-    "lithia": "^2.0.7"
+    "lithia": "^2.1.19"
   }
 }

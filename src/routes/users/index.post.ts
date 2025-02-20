@@ -1,6 +1,5 @@
 import prisma from '@/db';
-import { ConflictError } from 'lithia/core';
-import { LithiaRequest, LithiaResponse } from 'lithia/types';
+import { ConflictError, LithiaRequest, LithiaResponse } from 'lithia';
 
 export default async function handle(req: LithiaRequest, res: LithiaResponse) {
   const body = await req.body<{
